@@ -37,6 +37,10 @@ header
 {
   font-size: 1em;
 }
+.btn-default
+{
+  background-color: black;
+}
 .btn-circle.btn-lg 
 {
   width: 50px;
@@ -45,14 +49,15 @@ header
   font-size: 10px;
   line-height: 1.33;
   border-radius: 50px;
+  border-color: transparent;
 }
 .btn-default:hover
 {
-  background-color: red;
+  background-color: blue;
 }
 i
 {
-  color: blue;
+  color: #fff;
 }
 body
 {
