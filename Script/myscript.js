@@ -8,7 +8,7 @@ $(document).ready(function()
       		var author=a.quoteAuthor;
      	 	$("#quote").hide().html(content).fadeIn("slow");
       		$("#author").hide().html("-"+author).fadeIn("slow");                                 
-	  		$("#link").attr("href","https://twitter.com/intent/tweet?text="+"'"+a.quoteText+"'");
+	  	$("#link").attr("href","https://twitter.com/intent/tweet?text="+"'"+a.quoteText+"'");
     	});
   	});
 });
