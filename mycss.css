@@ -1,3 +1,8 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+}
 #quote-gen
 {
   margin-bottom: 20px;
@@ -6,6 +11,31 @@
 {
   margin: 20px;
   border-radius: 10px;
+  padding: 40px 50px;
+  width: 500px;
+  margin: 4% auto auto auto;
+  font-size: 1.5em;
+  color: #599;
+}
+h1
+{
+  font-family: cursive;
+  color:  #FF4500;
+  font-size: 6em;
+}
+h4
+{
+  padding-top: 5px;
+  font-family: cursive;
+  color:  #FF4500;
+}
+header
+{
+  padding-bottom: 10px;
+}
+.quote-author
+{
+  font-size: 1em;
 }
 .btn-circle.btn-lg 
 {
@@ -20,12 +50,13 @@
 {
   background-color: red;
 }
-#bq
-{
-  margin-left: 100px;
-  padding-left: 0px;
-}
 i
 {
   color: blue;
+}
+body
+{
+  background-color: #333;
+  color: #333;
+  font-family: sans-serif;
 }
