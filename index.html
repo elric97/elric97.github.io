@@ -9,13 +9,20 @@
 <script src="myscript.js"></script>
 </head>
 <body>
+<header class="text-center">
+  <div class="conatiner">
+    <h1>RQG</h1>
+    <h4>a FCC project</h4>
+  </div>
+</header>
+
 <div class="conatiner-fluid bg-1 text-center">
-  <hr>
   <br>
   <div class="jumbotron">
     <div class="row">
-        <div class="col-md-12"><p id="quote">quote goes here</p>
-     <p id="author">-Author</p></div>
+        <div class="col-md-12"><p id="quote">Press the refresh button to get quote</p>
+          <div class="quote-author"><p id="author">-Author</p></div>
+      </div>
     </div>
   </div>
 </div>
@@ -24,7 +31,8 @@
     <div class="col-md-6 text-center">
       <button class="btn btn-circle btn-lg btn-default" id="quote-gen"><i class="fa fa-refresh fa-2x"></i></button>
     </div>
-    <div class="col-md-6 text-center"><a id="link" href="" target="_blank"><button class="btn btn-circle btn-lg btn-default" id="tweet-gen"><i class="fa fa-twitter fa-2x"></i></button></a></div>
+    <div class="col-md-6 text-center"><a id="link" href="" target="_blank"><button class="btn btn-circle btn-lg btn-default" id="tweet-gen"><i class="fa fa-twitter fa-2x"></i></button><a></div>
   </div>
+
 </body>
 </html>
