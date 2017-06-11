@@ -1,0 +1,31 @@
+#quote-gen
+{
+  margin-bottom: 20px;
+}
+.jumbotron
+{
+  margin: 20px;
+  border-radius: 10px;
+}
+.btn-circle.btn-lg 
+{
+  width: 50px;
+  height: 50px;
+  padding: 10px 5px;
+  font-size: 10px;
+  line-height: 1.33;
+  border-radius: 50px;
+}
+.btn-default:hover
+{
+  background-color: red;
+}
+#bq
+{
+  margin-left: 100px;
+  padding-left: 0px;
+}
+i
+{
+  color: blue;
+}
